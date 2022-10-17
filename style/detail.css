@@ -1,0 +1,9 @@
+#content .img_product {
+    width: 200px;
+    aspect-ratio: 1/1;
+
+  }
+  #content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }

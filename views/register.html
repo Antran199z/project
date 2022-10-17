@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        
+        <div id="user-register">
+            <form onsubmit="registerUser()">
+                <!-- <input type="text" disabled class="form-control" id="txt-id" placeholder="user id"> -->
+                <input type="text" class="form-control" id="txt-name" placeholder="name">
+                <input type="text" class="form-control" id="txt-email" placeholder="email">
+                <input type="text" class="form-control" id="txt-password" placeholder="password">
+                <input type="text" class="form-control" id="txt-age" placeholder="age">
+                <!-- <input type="text" class="form-control" id="txt-token" placeholder="token"> -->
+                <button>DangKy</button>
+            </form>
+        </div>
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./../model/user.js"></script>
+    <script src="./../controllers/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.cartItem {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .cartItem img {
+    width: 100px;
+    aspect-ratio: 1/1;
+  }/*# sourceMappingURL=cart.css.map */
